@@ -1,0 +1,20 @@
+内容:在正点原子APLHA开发板上安装OPKG包管理器
+
+
+前言:这个系统没有自带的包管理器,只有QT环境,没有桌面环境.
+
+
+1:创建OPT文件夹
+  cd /
+  mkdir opt
+
+2:下载安装脚本,选在ARMV7版本的
+cd opt
+wget http://pkg.entware.net/binaries/armv7/installer/entware_install.sh
+
+3:执行脚本
+ chmod +x ./entware_install.sh
+ ./entware_install.sh
+ 
+ 4.添加/opt/bin  /opt/sbin进入环境变量
+ 
