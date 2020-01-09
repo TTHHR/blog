@@ -4,12 +4,12 @@
 前言:这个系统没有自带的包管理器,只有QT环境,没有桌面环境.
 
 
-1:创建OPT文件夹
+1:创建OPT文件夹 一般是已有的
   cd /
   mkdir opt
 
 2:下载安装脚本,选在ARMV7版本的
-cd opt
+cd opt    #可以不进这个文件夹
 wget http://pkg.entware.net/binaries/armv7/installer/entware_install.sh
 
 3:执行脚本
@@ -20,6 +20,9 @@ wget http://pkg.entware.net/binaries/armv7/installer/entware_install.sh
  
 export PATH=$PATH:/opt/bin
 export PATH=$PATH:/opt/sbin
+
+vi /etc/profile
+export PATH=$PATH:/opt/bin:/opt/sbin
 5:添加LIB
 
 
