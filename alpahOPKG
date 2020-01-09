@@ -18,3 +18,10 @@ wget http://pkg.entware.net/binaries/armv7/installer/entware_install.sh
  
  4.添加/opt/bin  /opt/sbin进入环境变量
  
+export PATH=$PATH:/opt/bin
+export PATH=$PATH:/opt/sbin
+5:添加LIB
+
+
+最后,如果出现了问题,可以安装旧版本的
+http://pkg.entware.net/binaries/armv7/installer/entware_install_old.sh
